@@ -41,7 +41,7 @@ namespace PClasse_Pessoa
                 Console.WriteLine();
             }
             Console.WriteLine();
-            Pessoa pessoa1 = new Pessoa(CadPessoa[0, 0],    CadPessoa[0, 1],    CadPessoa[0, 2],    CadPessoa[0, 3]);
+            Pessoa pessoa1 = new Pessoa(CadPessoa[0, 0], CadPessoa[0, 1], CadPessoa[0, 2], CadPessoa[0, 3]);
             Console.WriteLine(pessoa1.ToString());
             Console.WriteLine();
             Pessoa pessoa2 = new Pessoa(CadPessoa[1, 0], CadPessoa[1, 1], CadPessoa[1, 2], CadPessoa[1, 3]);
